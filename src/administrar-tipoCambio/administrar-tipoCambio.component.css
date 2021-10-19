@@ -1,0 +1,71 @@
+html, body {
+    height: 100% !important;
+    min-height: 100%;
+  }
+  table{
+    width: 100%;
+    
+  }
+  span{
+    cursor: pointer;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+  
+  th.mat-header-cell {
+    text-align: center;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+   
+  }
+
+  .mat-column-notificationName {
+    flex: none;
+    width: 120px;
+  }
+
+  .mat-column-nameNotification {
+    flex: none;
+    width: 80px;
+  }
+
+  .mat-column-appSource {
+    flex: none;
+    width: 50px;
+  }
+
+  .mat-column-templateName {
+    flex: none;
+    width: 170px;
+  }
+
+  .mat-column-contractName {
+    flex: none;
+    width: 170px;
+  }
+
+  .mat-column-estadoVista {
+    flex: none;
+    width: 70px;
+  }
+
+  .mat-column-availableProviders {
+    flex: none;
+    width: 100px;
+  }
+
+  #buttonDiv, #filterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  textarea
+{
+    overflow-y:scroll;
+}
